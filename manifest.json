@@ -231,15 +231,6 @@
                 }
             ]
         }
-    ],
-    "tests": {
-        "extensions": ["yb2bacceleratorstorefront"],
-        "annotations": ["UnitTests", "IntegrationTests"],
-        "packages": ["de.hybris.infra.*"]
-    },
-    "webTests": {
-        "extensions": ["yb2bacceleratorstorefront"],
-        "excludedPackages": ["de.hybris.platform.*"]
-    }
+    ]
 }
 
