@@ -1,48 +1,55 @@
 {
    "commerceSuiteVersion": "1905",
    "extensions": [
-"modeltacceleratorservices",
 "adaptivesearchsolr",
 "adaptivesearchbackoffice",
 "adaptivesearchsamplesaddon",
 "adaptivesearchwebservices",
 "b2bcommercebackoffice",
 "solrfacetsearchbackoffice",
-"yacceleratorcockpits",
+"yacceleratorbackoffice",
 "yacceleratorinitialdata",
 "yacceleratorfulfilmentprocess",
 "ycommercewebservices",
-"ycommercewebservicestest",
 "orderselfserviceaddon",
 "powertoolsstore",
 "solrserver",
 "acceleratorwebservicesaddon",
 "b2bacceleratoraddon",
-"commerceorgaddon",
 "commerceorgsamplesaddon",
-"customersupportbackoffice",
+"b2bpunchoutaddon",
+"secureportaladdon",
+"savedorderformsoccaddon",
+"b2boccaddon",
+"accountsummaryaddon",
+"assistedservicestorefront",
+"assistedservicewebservices",
+"captchaaddon",
 "customerticketingaddon",
+"customersupportbackoffice",
 "rulebuilderbackoffice",
 "couponbackoffice",
 "droolsruleengineservices",
 "couponfacades",
+"couponservices",
 "promotionenginesamplesaddon",
 "textfieldconfiguratortemplatebackoffice",
 "textfieldconfiguratortemplateaddon",
 "cmswebservices",
 "smarteditwebservices",
-"cmssmarteditwebservices",
 "permissionswebservices",
 "smarteditaddon",
 "cmssmartedit",
 "cmsbackoffice",
-"assistedservicestorefront",
-"assistedservicewebservices",
+"previewwebservices",
+"cmssmarteditwebservices",
+"cmsoccaddon",
 "previewpersonalizationweb",
 "personalizationcmsweb",
 "personalizationsmartedit",
 "personalizationpromotionssmartedit",
 "personalizationsampledataaddon",
+"personalizationpromotionssampledataaddon",
 "personalizationpromotions",
 "personalizationpromotionsweb",
 "personalizationservicesbackoffice",
@@ -52,37 +59,56 @@
 "personalizationsearchsmartedit",
 "personalizationsearchweb",
 "personalizationsearchsamplesaddon",
+"consignmenttrackingaddon",
+"consignmenttrackingmock",
+"consignmenttrackingbackoffice",
 "pcmbackofficesamplesaddon",
+"configurablebundleaddon",
+"consignmenttrackingoccaddon",
+"outboundservices",
+"odata2webservices",
+"odata2webservicesfeaturetests",
+"kymaintegrationbackoffice",
 "yb2bacceleratorstorefront"
    ],
     "storefrontAddons": [
-        {
-            "addon": "adaptivesearchsamplesaddon",
-            "storefront": "yb2bacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "orderselfserviceaddon",
-            "storefront": "yb2bacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-		        {
-            "addon": "acceleratorwebservicesaddon",
-            "storefront": "ycommercewebservices",
-            "template": "ycommercewebservices"
-        },
         {
             "addon": "b2bacceleratoraddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-		        {
+        {
             "addon": "commerceorgaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-        {
+		        {
             "addon": "commerceorgsamplesaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
+        },
+        {
+            "addon": "b2bpunchoutaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+		        {
+            "addon": "secureportaladdon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "accountsummaryaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+	{
+            "addon": "assistedservicestorefront",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "captchaaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
@@ -96,8 +122,13 @@
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-		        {
+		{
             "addon": "textfieldconfiguratortemplateaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "orderselfserviceaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
@@ -106,13 +137,18 @@
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
-		{
-            "addon": "personalizationsampledataaddon",
+        {
+            "addon": "adaptivesearchsamplesaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
         {
-            "addon": "personalizationsearchsamplesaddon",
+            "addon": "consignmenttrackingaddon",
+            "storefront": "yb2bacceleratorstorefront",
+            "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "configurablebundleaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
         },
@@ -122,23 +158,60 @@
             "template": "yacceleratorstorefront"
         },
         {
-            "addon": "assistedservicestorefront",
+            "addon": "personalizationsearchsamplesaddon",
             "storefront": "yb2bacceleratorstorefront",
             "template": "yacceleratorstorefront"
+        },
+        {
+            "addon": "acceleratorwebservicesaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
+        },
+        {
+            "addon": "b2boccaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
+        },
+        {
+            "addon": "savedorderformsoccaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
+        },
+        {
+            "addon": "consignmenttrackingoccaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
+        },
+        {
+            "addon": "cmsoccaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
         }
     ],
    "properties": [
         {
-            "key": "test.property.1",
-            "value": "test.property.1.value"
+            "key": "recaptcha.publickey",
+            "value": ""
         },
         {
-            "key": "test.property.2",
-            "value": "test.property.2.value"
+            "key": "recaptcha.privatekey",
+            "value": ""
         },
         {
-     	 	"key":"hac.webroot",
-     	 	"value":"/hac"
+     	 	"key":"googleApiKey",
+     	 	"value":""
+    	},
+        {
+     	 	"key":"website.powertools.http",
+     	 	"value":"http://powertools.local:9001/yb2bacceleratorstorefront"
+    	},
+        {
+     	 	"key":"website.powertools.https",
+     	 	"value":"https://powertools.local:9002/yb2bacceleratorstorefront"
+    	},
+        {
+     	 	"key":"yb2bacceleratorstorefront.illegalrequirementstest.excluded",
+     	 	"value":"true"
     	}
     ],
    "aspects": [
