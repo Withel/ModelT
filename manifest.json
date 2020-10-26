@@ -194,6 +194,11 @@
             "template": "ycommercewebservices"
         }
     ],
+	"tests": {
+        "extensions": ["yb2bacceleratorstorefront"],
+        "annotations": ["UnitTests", "IntegrationTests"],
+        "packages": ["de.hybris.infra.*"]
+    },
    "properties": [
         {
             "key": "persistence.legacy.mode",
