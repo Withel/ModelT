@@ -201,10 +201,6 @@
     },
    "properties": [
         {
-            "key": "persistence.legacy.mode",
-            "value": "false"
-        },
-        {
             "key": "recaptcha.privatekey",
             "value": ""
         },
