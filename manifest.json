@@ -1,11 +1,5 @@
 {
    "commerceSuiteVersion": "2005.0",
-   "extensionPacks" :
-	[
-		{  "name" : "hybris-commerce-integrations",
-		 "version" : "2005.0"
-		}
-	],
    "extensions": [
 "adaptivesearchsolr",
 "adaptivesearchbackoffice",
@@ -200,6 +194,10 @@
         "packages": ["de.hybris.infra.*"]
     },
    "properties": [
+	   {
+		   "key": "persistence.legacy.mode",
+		   "value": "false"
+	   },
         {
             "key": "recaptcha.privatekey",
             "value": ""
